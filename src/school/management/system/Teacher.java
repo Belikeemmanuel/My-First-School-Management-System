@@ -5,9 +5,15 @@ package school.management.system;
  */
 public class Teacher {
 
+<<<<<<< HEAD
     private int id;
     private String name;
     private int salary;
+=======
+    private  static int id;
+    private static String name;
+    private static int salary;
+>>>>>>> 93cdb7c (Initial version)
     private int salaryEarned;
 
     /**

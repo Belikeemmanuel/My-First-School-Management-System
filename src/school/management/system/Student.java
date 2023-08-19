@@ -3,10 +3,17 @@ package school.management.system;
 //This class is responsible for keeping track of the students name, id, grade, fees paid and fees total
 public class Student {
 
+<<<<<<< HEAD
     private int id;
     private String name;
     private int grade;
     private int feesPaid;
+=======
+    public static int id;
+    private static String name;
+    private static int grade;
+    public static int feesPaid;
+>>>>>>> 93cdb7c (Initial version)
     private int feesTotal;
 
     /**
@@ -75,6 +82,10 @@ public class Student {
      * @return the fees paid by the student
      */
     public int getFeesPaid() {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 93cdb7c (Initial version)
         return feesPaid;
     }
 
@@ -90,6 +101,11 @@ public class Student {
         return feesTotal-feesPaid;
     }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 93cdb7c (Initial version)
     @Override
     public String toString() {
         return "Student's name is : " +name+ " Total fees paid so far : $"

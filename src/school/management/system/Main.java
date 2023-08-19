@@ -3,6 +3,12 @@ package school.management.system;
 import java.util.ArrayList;
 import java.util.List;
 
+<<<<<<< HEAD
+=======
+
+import java.util.Scanner;
+
+>>>>>>> 93cdb7c (Initial version)
 public class Main {
     public static void main(String[] args) {
         Teacher Lizzy = new Teacher(1, "Lizzy", 500);
@@ -26,6 +32,7 @@ public class Main {
 
         School ghs = new School(teacherList, studentList);
 
+<<<<<<< HEAD
         Teacher megan = new Teacher(6, "megan vallaha",900);
         ghs.addTeachers(megan);
 
@@ -51,3 +58,27 @@ public class Main {
 
     }
 }
+=======
+        Teacher megan = new Teacher(6, "megan vallaha", 900);
+        teacherList.add(megan);
+
+
+        Tamara.payFees(5000);
+        rakshith.payFees(6000);
+        System.out.println("GHS has earned $" + ghs.getTotalMoneyEarned());
+
+//        System.out.println("--------MAKING SCHOOL PAY SALARY-------");
+//        Lizzy.recievesalary(Lizzy.getSalary());
+//        System.out.println( "GHS HAS PAID $" +Lizzy.getSalary() + " TO " +Lizzy.getName()+
+//                " AND NOW HAS $" +ghs.getTotalMoneyEarned());
+//
+//        vanderhorn.recievesalary(vanderhorn.getSalary());
+//        System.out.println( "GHS HAS PAID $" +vanderhorn.getSalary() + " TO " +vanderhorn.getName()+
+//                " AND NOW HAS $" +ghs.getTotalMoneyEarned());
+//
+//        System.out.println(rakshith);
+//
+//        Melissa.recievesalary(Melissa.getSalary());
+//        System.out.println(Melissa);
+    }}
+>>>>>>> 93cdb7c (Initial version)
