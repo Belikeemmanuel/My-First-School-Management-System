@@ -2,12 +2,7 @@ package school.management.system;
 
 import java.util.List;
 
-<<<<<<< HEAD
 /**
-=======
-
-/**;/
->>>>>>> 93cdb7c (Initial version)
  * Many teachers, Many Students.
  * Making use of ArrayList to implement teachers and students.
  */

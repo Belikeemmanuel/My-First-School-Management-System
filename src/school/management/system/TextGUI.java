@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-//import school.management.system.*;
+
 
 public class TextGUI {
 
